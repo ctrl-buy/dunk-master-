@@ -1,0 +1,64 @@
+:root {
+    --orange: #FFA500;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+.owl-carousel {
+    position: relative;
+    z-index: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    background-color: #FFA500;
+    top: 50%;
+}
+
+.owl-carousel.buynow-carousel .owl-nav .owl-prev,
+.owl-carousel.buynow-carousel .owl-nav .owl-next {
+    background-color: transparent;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    left: 0;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev span,
+.owl-carousel .owl-nav .owl-next span {
+    display: inline-block;
+    height: 80px;
+    width: 50px;
+    border-radius: 12px;
+    font-size: 50px;
+    background-color: var(--orange);
+    color: var(--black);
+}
+/* 
+.owl-carousel.buynow-carousel .owl-nav .owl-prev span,
+.owl-carousel.buynow-carousel .owl-nav .owl-next span {
+    background-color: var(--white);
+} */
+
+
+
+@media (max-width: 870px) {
+
+
+
+
+    .owl-carousel .owl-nav .owl-prev span,
+    .owl-carousel .owl-nav .owl-next span {
+        display: inline-block;
+        height: 70px;
+        width: 30px;
+        border-radius: 6px;
+        font-size: 50px;
+        background-color: var(--orange);
+    }
+}
